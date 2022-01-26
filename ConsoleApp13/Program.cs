@@ -19,7 +19,10 @@ namespace ConsoleApp13
 
 
 
-
+                if (vvod == 3)
+                {
+                    Console.WriteLine(a - b);
+                }
 
 
 
