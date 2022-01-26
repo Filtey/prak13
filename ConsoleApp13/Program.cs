@@ -26,7 +26,10 @@ namespace ConsoleApp13
 
 
 
-
+                if(vvod == 2)
+                {
+                    b = int.Parse(Console.ReadLine());
+                }
 
 
 
