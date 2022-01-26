@@ -18,6 +18,10 @@ namespace ConsoleApp13
 
 
 
+                if(vvod == 1)
+                {
+                    a = int.Parse(Console.ReadLine());
+                }
 
                 if (vvod == 3)
                 {
@@ -25,11 +29,16 @@ namespace ConsoleApp13
                 }
 
 
+                if(vvod == 2)
+                {
+                    b = int.Parse(Console.ReadLine());
+                }
 
 
-
-
-
+                if(vvod == 4)
+                {
+                    Console.WriteLine(a + b);
+                }
 
 
 
