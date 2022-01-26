@@ -37,8 +37,12 @@ namespace ConsoleApp13
                     Console.WriteLine(a * b);
                 }
 
+                if (vvod == 4)
+                {
+                    Console.WriteLine(a + b);
+                }
 
-
+                
 
 
                 if(vvod == 2)
