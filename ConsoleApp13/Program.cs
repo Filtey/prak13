@@ -17,11 +17,26 @@ namespace ConsoleApp13
                 int vvod = int.Parse(Console.ReadLine());
 
 
+                if (vvod == 6)
+                {
+                    Console.WriteLine(a / b);
+                }
 
                 if(vvod == 1)
                 {
                     a = int.Parse(Console.ReadLine());
                 }
+
+                if (vvod == 3)
+                {
+                    Console.WriteLine(a - b);
+                }
+
+                if (vvod == 5)
+                {
+                    Console.WriteLine(a * b);
+                }
+
 
 
 
